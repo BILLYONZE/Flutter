@@ -2,7 +2,7 @@ int radius = 7;
 double pie = 3.143;
 
 double circlearea() {
-  double answer = pie * radius;
+  double answer = pie * (radius *radius);
   return answer;
 }
 
